@@ -1,5 +1,6 @@
 import pymssql, socket, datetime
 
+# 配置
 conn = pymssql.connect(
     user='sa',
     password='123456',
@@ -48,5 +49,3 @@ def set_data(player=socket.gethostbyname(socket.gethostname()), score=0):
     #     print(get_data('select * from scores'))
     #     cursor.close()
     #     conn.close()
-
-
