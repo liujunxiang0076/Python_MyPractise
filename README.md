@@ -1,2 +1,2 @@
 # Python_MyPractise
-个人实现项目
+个人实践项目
